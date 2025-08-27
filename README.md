@@ -19,15 +19,15 @@ I Grant You COURAGE To Solve Your Problem
 ```bash
 > ./helpgod
 Is there something you can change? (yes/no) no
-Are You Sure? (yes/no) no
-Seek WISDOM To Know The Difference Then Come Back
-Is there something you can change? (yes/no) yes
-I Grant You COURAGE To Solve Your Problem
+Are You Sure? (yes/no) yes
+I Grant You SERENITY To Accept The Things You Cannot Change
 ```
 
 ```bash
 > ./helpgod
 Is there something you can change? (yes/no) no
-Are You Sure? (yes/no) yes
-I Grant You SERENITY To Accept The Things You Cannot Change
+Are You Sure? (yes/no) no
+Seek WISDOM To Know The Difference Then Come Back
+Is there something you can change? (yes/no) yes
+I Grant You COURAGE To Solve Your Problem
 ```
