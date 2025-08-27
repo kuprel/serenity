@@ -1,0 +1,35 @@
+#!/bin/bash
+
+while true; do
+
+    read -p "Is there something you can change? (yes/no) " change_answer
+
+    case "$change_answer" in
+        [Yy] | [Yy][Ee][Ss] )
+            echo "I Grant You COURAGE To Solve Your Problem"
+            exit 0
+            ;;
+
+        [Nn] | [Nn][Oo] )
+            read -p "Are You Sure? (yes/no) " sure_answer
+
+            case "$sure_answer" in
+                [Yy] | [Yy][Ee][Ss] )
+                    echo "I Grant You SERENITY To Accept The Things You Cannot Change"
+                    exit 0
+                    ;;
+                [Nn] | [Nn][Oo] )
+                    echo "Seek WISDOM To Know The Difference Then Come Back"
+                    continue
+                    ;;
+                * )
+                    echo "Invalid input. Please start over."
+                    ;;
+            esac
+            ;;
+
+        * )
+            echo "Invalid input. Please answer 'yes' or 'no'."
+            ;;
+    esac
+done
