@@ -1,6 +1,21 @@
 Simulates God's decision tree
 
-<img src="https://github.com/kuprel/serenity/raw/main/decision-tree.png" alt="min-dalle" width="450"/>
+```mermaid
+flowchart TD
+  PRAY["God, I have a problem, I pray to You for help"]:::prayer
+  CHANGE1{"Is there something you can change?"}:::gate
+  COURAGE["I grant you Courage to solve your problem"]:::answer
+  CHANGE2{"Are you sure?"}:::gate
+  SERENITY["I grant you Serenity to accept the things you cannot change"]:::answer
+  WISDOM["Seek Wisdom to know the difference"]:::answer
+
+  PRAY --> CHANGE1
+  CHANGE1 -- Yes --> COURAGE
+  CHANGE1 -- No  --> CHANGE2
+  CHANGE2 -- Yes --> SERENITY
+  CHANGE2 -- No  --> WISDOM
+  WISDOM -. "Come back" .-> CHANGE1
+```
 
 ## Install
 
