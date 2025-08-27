@@ -2,7 +2,7 @@
 
 while true; do
 
-    read -p "Is there something you can change? (yes/no) " change_answer
+    read -p "Is There Something You Can Change? (yes/no) " change_answer
 
     case "$change_answer" in
         [Yy] | [Yy][Ee][Ss] )
@@ -23,13 +23,13 @@ while true; do
                     continue
                     ;;
                 * )
-                    echo "Invalid input. Please start over."
+                    echo "Invalid Input. Please Start Over."
                     ;;
             esac
             ;;
 
         * )
-            echo "Invalid input. Please answer 'yes' or 'no'."
+            echo "Invalid Input. Please Answer 'yes' Or 'no'."
             ;;
     esac
 done
