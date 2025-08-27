@@ -1,5 +1,7 @@
 Simulates God's decision tree
 
+<img src="https://github.com/kuprel/serenity/raw/main/decision-tree.png" alt="min-dalle" width="450"/>
+
 ## Install
 
 ```bash
