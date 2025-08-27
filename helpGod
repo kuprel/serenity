@@ -23,13 +23,13 @@ while true; do
                     continue
                     ;;
                 * )
-                    echo "Invalid Input. Please Start Over."
+                    echo "Invalid Input Start Over"
                     ;;
             esac
             ;;
 
         * )
-            echo "Invalid Input. Please Answer 'yes' Or 'no'."
+            echo "Answer yes or no"
             ;;
     esac
 done
